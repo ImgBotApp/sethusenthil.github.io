@@ -7,3 +7,6 @@ Push.create("👋 Hi! Whats up?", {
         this.close();
     }
 });
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
