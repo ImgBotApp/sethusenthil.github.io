@@ -1,0 +1,80 @@
+.gfont{
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+.nocaps{
+  text-transform: none;
+}
+.standout{
+  font-size: 16.5px;
+}
+@media screen and (max-width: 600px) {
+  #advhide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  #advdhide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+.material-icons{
+  display: inline-flex;
+  vertical-align: middle;
+}
+.mdt{
+  font-size: 35px;
+}
+nav{
+  background-color: #0f9d58;
+}
+.maingreen{
+  background-color: #0f9d58;
+}
+.bluehover{
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.bluehover:hover{
+  background-color: #4285F4;
+}
+.bluehover:active{
+  background-color: #0f9d58;
+}
+blockquote{
+  border-left: 5px solid #4285F4;
+}
+.bolder{
+  font-weight: 400;
+}
+.bluetxt{
+  color: #4285F4;
+}
+::-moz-selection {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+  background-color: #16C570;
+}
+
+::selection {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+  background-color: #16C570;
+}
+.page-footer {
+       background-color: #0f9d58;
+   }
+.noshad{
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.noshad:hover{
+  box-shadow: none;
+}
