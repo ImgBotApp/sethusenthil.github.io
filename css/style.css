@@ -1,36 +1,46 @@
-/* CSS */
-
 HTML {
-  overflow-x: hidden;
+  overflow-x: hidden!important
 }
 
 @font-face {
   font-family: "Circular";
-  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot");
-  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.woff") format("woff"), url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.ttf") format("truetype");
+  src: url(https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot);
+  src: url("https://www.bu.edu/cdn/fonts/Circular/Circular-Book.eot?#iefix") format("embedded-opentype"), url(https://www.bu.edu/cdn/fonts/Circular/Circular-Book.woff) format("woff"), url(https://www.bu.edu/cdn/fonts/Circular/Circular-Book.ttf) format("truetype");
   font-style: normal;
-  font-weight: 800;
+  font-weight: 800
 }
 
 .gfont {
-  font-family: 'Product Sans', Arial, sans-serif;
+  font-family: 'Product Sans', Arial, sans-serif
 }
 
 .rubik {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
   .wow.nomobile {
-    animation-name: none !important;
-    visibility: visible !important;
+    animation-name: none!important;
+    visibility: visible!important
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width:800px) {
+  .hidemobile {
+    visibility: hidden!important
+  }
+}
+
+@media (max-width:768px) {
   .full-bg-img, .view {
     height: auto;
-    position: relative;
+    position: relative
+  }
+}
+
+@media (min-width:600px) {
+  .hideonpc {
+    display: none!important
   }
 }
 
@@ -46,169 +56,166 @@ HTML {
   box-sizing: border-box;
   border: solid 2px transparent;
   border-top-color: #4285F4;
-  border-left-color: #f4c20d;
+  border-left-color: #f4c20d
 }
 
 #nprogress .bar {
   width: 100%;
-  height: 3px;
+  height: 3px
 }
 
-@media (max-width: 992px) {
+@media (max-width:992px) {
   .description {
     padding-top: 7rem;
-    text-align: center;
+    text-align: center
   }
   #app-mockup {
-    max-height: 400px;
+    max-height: 400px
   }
 }
 
 #nprogress .bar {
-  background: #db3236;
+  background: #db3236
 }
 
 .accentcolor {
-  color: #4285F4;
+  color: #4285F4
 }
 
 .accentcolorhover {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .accentcolorhover:hover {
-  color: #4285F4;
+  color: #4285F4
 }
 
 .bgaccentcolor {
-  background-color: #4285F4;
+  background-color: #4285F4
 }
 
 .accentcolorg {
   background-color: #34A853;
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .accentcolorghover {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .accentcolorghover:hover {
-  color: #34A853;
+  color: #34A853
 }
 
 .bgaccentcolorg {
-  background-color: #4285F4;
+  background-color: #4285F4
 }
 
 .dropdownrhover {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .dropdownrhover:hover {
-  background-color: #4285F4;
+  background-color: #4285F4
 }
 
 .dropdowndisabled {
   -webkit-transition-duration: .5s;
   transition-duration: .5s;
-  cursor: not-allowed;
+  cursor: not-allowed
 }
 
 .dropdowndisabled:hover {
-  background-color: #607D8B;
+  background-color: #607D8B
 }
 
 .aredhover {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .aredhover:hover {
-  color: #ed1c24;
+  color: #ed1c24
 }
 
 .font-up {
   font-weight: 500;
   font-size: 20px;
-  color: #212529;
+  color: #212529
 }
 
 .android {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .android:hover {
-  color: #67B445;
+  color: #67B445
 }
 
 .smartphone {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .smartphone:hover {
-  color: #EA4335;
+  color: #EA4335
 }
 
 .btn-rounded {
-  border-radius: 24px;
+  border-radius: 24px
 }
-
-
-/* Rules for sizing the icon. */
 
 .material-icons.md-35 {
   font-size: 35px;
   vertical-align: middle;
   color: #34A853;
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .material-icons.md-35:hover {
-  color: white;
+  color: white
 }
 
 .material-icons.md-60 {
-  font-size: 60px;
+  font-size: 60px
 }
 
 .material-icons.md-40 {
   font-size: 45px;
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 .miaposition {
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 @keyframes bouncing {
   0% {
-    bottom: 0;
+    bottom: 0
   }
   50% {
-    bottom: 20px;
+    bottom: 20px
   }
   100% {
-    bottom: 0;
+    bottom: 0
   }
 }
 
 .hsr {
-  height: 100px;
+  height: 100px
 }
 
 .subtitles {
   text-align: center;
   font-weight: 800;
   font-size: 45px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif
 }
 
 #SethuCard {
@@ -224,14 +231,14 @@ HTML {
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
+  -ms-user-select: none
 }
 
 #SethuCard:hover {
-  opacity: 0.7;
+  opacity: .7;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.2)
 }
 
 #SethuCard:active {
@@ -239,166 +246,176 @@ HTML {
   -ms-transform: rotateZ(30deg);
   transform: rotateZ(30deg);
   -webkit-filter: contrast(200%) brightness(150%);
-  filter: contrast(200%) brightness(150%);
+  filter: contrast(200%) brightness(150%)
 }
 
 .social {
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .social:hover {
   font-size: 35px;
-  text-shadow: 2px 2px 2px #ccc;
+  text-shadow: 2px 2px 2px #ccc
 }
 
 .social:active {
   color: #4285F4;
-  text-shadow: none;
+  text-shadow: none
 }
 
 .fa-instagram {
   color: #fb3958;
   -webkit-animation-delay: 1s;
-  /* Safari 4.0 - 8.0 */
-  animation-delay: 1s;
+  animation-delay: 1s
 }
 
 .fa-instagram:hover {
-  color: #833ab4;
+  color: #833ab4
 }
 
 .fa-twitter {
   color: #56ACEE;
   -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
+  animation-delay: 1.5s
 }
 
 .fa-github {
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  animation-delay: 2s
 }
 
 .fa-stack-overflow {
   color: #f48024;
   -webkit-animation-delay: 2.5s;
-  animation-delay: 2.5s;
+  animation-delay: 2.5s
 }
 
 .fa-reddit-alien {
   color: #ff4500;
   -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  animation-delay: 3s
 }
 
 .fa-google-plus {
   color: #dd4b39;
   -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
+  animation-delay: 3.5s
 }
 
 .fa-codepen {
   -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  animation-delay: 4s
 }
 
 .fa-medium {
   -webkit-animation-delay: 4.5s;
   animation-delay: 4.5s;
-  color: #14C867;
+  color: #14C867
 }
 
 .fa-medium:hover {
-  color: #08E370;
+  color: #08E370
 }
 
 .pbold {
-  font-weight: 300;
+  font-weight: 300
 }
 
 p {
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 25px;
+  font-size: 25px
 }
 
 .delaysub {
   -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  animation-delay: 2s
 }
 
 .containerbar {
-  width: 80%;
+  width: 80%
 }
 
 .skills {
   text-align: right;
   padding-right: 20px;
   line-height: 40px;
-  color: white;
+  color: white
 }
 
 .html {
   width: 100%;
   background-color: #F16529;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .css {
   width: 95%;
   background-color: #3B9ADC;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .js {
   width: 65%;
   background-color: #FDD835;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .bootstrap {
   width: 80%;
   background-color: #5E4585;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .androids {
   width: 60%;
   background-color: #34A853;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .lib-panel {
-  margin-bottom: 20Px;
+  margin-bottom: 20Px
 }
 
 .card-text {
-  font-size: 15px;
+  font-size: 15px
 }
 
 .footeric.fa {
   font-size: 30px;
   -webkit-transition-duration: .5s;
-  transition-duration: .5s;
+  transition-duration: .5s
 }
 
 .footeric.fa:hover {
-  color: white;
+  color: white
 }
 
 .footeric.fa-github, .footeric.fa-codepen {
-  color: black;
+  color: black
 }
 
 .w400 {
-  font-weight: 400;
+  font-weight: 400
 }
+
 ::-moz-selection {
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
-  background-color: #7AA9F7;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
+  background-color: #7AA9F7
 }
 
 ::selection {
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
-  background-color: #7AA9F7;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
+  background-color: #7AA9F7
+}
+
+.viewmoreb {
+  background-color: #34A853
+}
+
+.blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #4285F4
 }
